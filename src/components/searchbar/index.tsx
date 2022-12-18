@@ -5,7 +5,6 @@ import {
   MagnifyingGlassIcon,
 } from "@heroicons/react/20/solid";
 import React from "react";
-import { useNavigation, useLocation } from 'react-router';
 import { Link } from "react-router-dom";
 
 function classNames(...classes) {
@@ -31,14 +30,14 @@ export function SearchBar({ selectedCategory, setCategory }: SearchBarProps) {
   const [search, setSearch] = React.useState("");
 
   return (
-    <div className="flex justify-center items-center px-10">
+    <div className="flex justify-center items-center px-10 pb-10 lg:pb-0">
       <div className="flex flex-wrap items-center p-6 space-x-6 bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-500">
         <div className="flex flex-1 justify-center lg:justify-end">
           <div className="w-full px-2 lg:px-6">
             <label htmlFor="search" className="sr-only">
               Search {selectedCategory}
             </label>
-            <div className="relative text-primary focus-within:text-gray-400">
+            <div className="relative text-primary focus-within:text-gray-400 lg:mt-0 ml-5">
               <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
                 <MagnifyingGlassIcon className="h-5 w-5" aria-hidden="true" />
               </div>
@@ -53,8 +52,8 @@ export function SearchBar({ selectedCategory, setCategory }: SearchBarProps) {
             </div>
           </div>
         </div>
-        <div className="flex py-3 px-4 rounded-lg text-gray-500 font-semibold cursor-pointer">
-          <Combobox as="div" value={selectedCategory} onChange={setCategory}>
+        <div className="w-full lg:w-auto flex py-3 lg:px-4 rounded-lg text-gray-500 font-semibold cursor-pointer">
+          <Combobox as="div" value={selectedCategory} onChange={setCategory} className="w-full">
             <div className="relative mt-1">
               <Combobox.Input
                 className="w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm"
@@ -122,7 +121,7 @@ export function SearchBar({ selectedCategory, setCategory }: SearchBarProps) {
             </div>
           </Combobox>
         </div>
-        <Link to={`/${search}`} className="inline-flex items-center rounded-md border border-transparent bg-indigo-100 px-6 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+        <Link to={`/${search}`} className="w-full lg:w-auto text-center justify-center inline-flex items-center rounded-md border border-transparent bg-indigo-100 px-6 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
           <span>Search</span>
         </Link>
       </div>
