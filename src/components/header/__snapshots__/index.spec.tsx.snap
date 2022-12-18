@@ -1,0 +1,278 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component testing with testing-library snapshot test 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        class="flex-shrink-0 bg-secondary"
+        data-headlessui-state=""
+      >
+        <div
+          class="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8"
+        >
+          <div
+            class="relative flex h-16 items-center justify-between"
+          >
+            <div
+              class="flex items-center px-2 lg:px-0 xl:w-64"
+            >
+              <div
+                class="flex-shrink-0"
+              >
+                <img
+                  alt="Your Company"
+                  class="h-8 w-auto"
+                  src="https://s3-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/397/400/original/Build-With-Assembly-Logo-black.png?1619213119"
+                />
+              </div>
+            </div>
+            <div
+              class="flex lg:hidden"
+            >
+              <button
+                aria-expanded="false"
+                class="inline-flex items-center justify-center rounded-md bg-primary p-2 text-white hover:bg-primary hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary"
+                data-headlessui-state=""
+                id="headlessui-disclosure-button-4"
+                type="button"
+              >
+                <span
+                  class="sr-only"
+                >
+                  Open main menu
+                </span>
+                <svg
+                  aria-hidden="true"
+                  class="block h-6 w-6"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5A.75.75 0 012 10z"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="hidden lg:block lg:w-80"
+            >
+              <div
+                class="flex items-center justify-end"
+              >
+                <div
+                  class="flex"
+                >
+                  <a
+                    aria-current="page"
+                    class="rounded-md px-3 py-2 text-sm font-medium text-black hover:text-white"
+                    href="#"
+                  >
+                    Dashboard
+                  </a>
+                  <a
+                    class="rounded-md px-3 py-2 text-sm font-medium text-black hover:text-white"
+                    href="#"
+                  >
+                    Domains
+                  </a>
+                </div>
+                <div
+                  class="relative ml-4 flex-shrink-0"
+                  data-headlessui-state=""
+                >
+                  <div>
+                    <button
+                      aria-expanded="false"
+                      aria-haspopup="menu"
+                      class="flex rounded-full bg-indigo-700 text-sm text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-700"
+                      data-headlessui-state=""
+                      id="headlessui-menu-button-5"
+                      type="button"
+                    >
+                      <span
+                        class="sr-only"
+                      >
+                        Open user menu
+                      </span>
+                      <img
+                        alt=""
+                        class="h-8 w-8 rounded-full"
+                        src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&h=256&q=80"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      class="flex-shrink-0 bg-secondary"
+      data-headlessui-state=""
+    >
+      <div
+        class="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8"
+      >
+        <div
+          class="relative flex h-16 items-center justify-between"
+        >
+          <div
+            class="flex items-center px-2 lg:px-0 xl:w-64"
+          >
+            <div
+              class="flex-shrink-0"
+            >
+              <img
+                alt="Your Company"
+                class="h-8 w-auto"
+                src="https://s3-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/397/400/original/Build-With-Assembly-Logo-black.png?1619213119"
+              />
+            </div>
+          </div>
+          <div
+            class="flex lg:hidden"
+          >
+            <button
+              aria-expanded="false"
+              class="inline-flex items-center justify-center rounded-md bg-primary p-2 text-white hover:bg-primary hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary"
+              data-headlessui-state=""
+              id="headlessui-disclosure-button-4"
+              type="button"
+            >
+              <span
+                class="sr-only"
+              >
+                Open main menu
+              </span>
+              <svg
+                aria-hidden="true"
+                class="block h-6 w-6"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5A.75.75 0 012 10z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="hidden lg:block lg:w-80"
+          >
+            <div
+              class="flex items-center justify-end"
+            >
+              <div
+                class="flex"
+              >
+                <a
+                  aria-current="page"
+                  class="rounded-md px-3 py-2 text-sm font-medium text-black hover:text-white"
+                  href="#"
+                >
+                  Dashboard
+                </a>
+                <a
+                  class="rounded-md px-3 py-2 text-sm font-medium text-black hover:text-white"
+                  href="#"
+                >
+                  Domains
+                </a>
+              </div>
+              <div
+                class="relative ml-4 flex-shrink-0"
+                data-headlessui-state=""
+              >
+                <div>
+                  <button
+                    aria-expanded="false"
+                    aria-haspopup="menu"
+                    class="flex rounded-full bg-indigo-700 text-sm text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-700"
+                    data-headlessui-state=""
+                    id="headlessui-menu-button-5"
+                    type="button"
+                  >
+                    <span
+                      class="sr-only"
+                    >
+                      Open user menu
+                    </span>
+                    <img
+                      alt=""
+                      class="h-8 w-8 rounded-full"
+                      src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&h=256&q=80"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

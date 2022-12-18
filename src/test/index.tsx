@@ -4,6 +4,7 @@ import {
   RenderOptions,
   RenderResult,
 } from "@testing-library/react";
+import { BrowserRouter, MemoryRouter } from "react-router-dom";
 
 /**
  * Custom renderer example with @testing-library/react
@@ -14,7 +15,11 @@ import {
  */
 
 export const AllTheProviders = ({ children }) => {
-  return <>{children}</>;
+  return (
+    <>
+      <BrowserRouter>{children}</BrowserRouter>
+    </>
+  );
 };
 
 const render = (ui: ReactElement, options?: Omit<RenderOptions, "queries">) =>

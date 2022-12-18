@@ -1,16 +1,16 @@
 import { render } from "test";
 
-import { Main } from "./index";
+import Loader from "./loader";
 
-describe("Main component testing with testing-library", () => {
+describe("Loader component tests", () => {
   it("renders without crashing", () => {
-    const view = render(<Main />);
+    const view = render(<Loader />);
 
     expect(view).toBeTruthy();
   });
 
   it("snapshot test", () => {
-    const view = render(<Main />);
+    const view = render(<Loader />);
 
     expect(view).toMatchSnapshot();
   });
