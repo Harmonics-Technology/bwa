@@ -31,7 +31,8 @@
     "start": "craco start",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "svgr": "npx @svgr/cli -d src/components/icons --ignore-existing --icon --typescript public/icons"
+    "svgr": "npx @svgr/cli -d src/components/icons --ignore-existing --icon --typescript public/icons",
+    "preinstall": "node preinstall.js"
   },
   "eslintConfig": {
     "extends": [

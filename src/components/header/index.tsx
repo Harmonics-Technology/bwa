@@ -7,8 +7,8 @@ import {
 import { classNames } from "utilities/funtions";
 
 const navigation = [
-  { name: "Dashboard", href: "#", current: true },
-  { name: "Domains", href: "#", current: false },
+  { name: "Users", href: "#", current: true },
+  { name: "Organization", href: "#", current: false },
 ];
 const userNavigation = [
   { name: "Your Profile", href: "#" },
