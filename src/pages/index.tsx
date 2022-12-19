@@ -14,7 +14,7 @@ export const Categories = {
   ISSUE: "ISSUES",
 };
 
-export default function Example() {
+export default function Index() {
   const { searchQuery } = useParams();
   const [searchParams, setSearchParams] = useSearchParams();
   const page = searchParams.get("page") || 1;

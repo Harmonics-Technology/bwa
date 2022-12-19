@@ -1,13 +1,13 @@
 import "styles/global.scss";
 
 import Home from "pages";
-import Example from "pages/index";
+import Index from "pages/index";
 
 function App(): JSX.Element {
   return (
     <div className="App">
       {/* <Home /> */}
-      <Example />
+      <Index />
     </div>
   );
 }
